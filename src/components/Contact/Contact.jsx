@@ -42,7 +42,7 @@ const childVariants = {
 export const Contact = () => {
   return (
     <div
-      className="max-w-[100vw] w-[1920px] h-[100vh] max-p-[24px] grid grid-cols-12 max-3xl:grid-rows-6 grid-rows-12 gap-x-[16px]
+      className="max-w-[100vw] w-[1920px] max-h-[100vh] max-p-[24px] grid grid-cols-12 max-3xl:grid-rows-6 grid-rows-12 gap-x-[16px]
     bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px] overflow-y-hidden max-md:h-[3200px]"
     >
       <motion.section
