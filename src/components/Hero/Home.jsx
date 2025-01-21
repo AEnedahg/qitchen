@@ -5,7 +5,6 @@ import { FaceSvg } from './icons/FaceSvg';
 import { InstaSvg } from './icons/InstaSvg';
 import { TwitterSvg } from './icons/TwitterSvg';
 import { motion } from 'motion/react';
-import { Nav } from '../Nav';
 
 const sectionVariants = {
   hidden: {
@@ -46,7 +45,7 @@ export const Home = ({ children }) => {
     <div
       className="
     max-w-[100vw] w-[1920px] h-[1080px] p-[24px]
-    bg-neutral-900 z-[1] max-md:h-[1500px] max-sm:p-[10px] max-md:p-[15px]
+    bg-neutral-900 z-[1] max-md:h-[1500px] max-sm:p-[10px] max-md:p-[15px] overflow-x-hidden
     "
     >
       <motion.section
@@ -63,6 +62,7 @@ export const Home = ({ children }) => {
           initial="hidden"
           animate="visible"
           className="
+            box-border
             col-span-9 row-span-3 relative z-[1] rounded-[20px]
             bg-[url('https://res.cloudinary.com/dmrr92p4s/image/upload/v1736798086/qitchen/hero/ptbe60nymzbjct1e4k6e.png')]
             max-2xl:col-span-12 max-2xl:row-span-2 max-xl:bg-cover max-xl:bg-top max-xl:bg-no-repeat
