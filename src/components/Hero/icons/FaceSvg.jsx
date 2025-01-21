@@ -15,6 +15,7 @@ export const FaceSvg = () => {
             scale: 1,
             rotate: 0,
           }}
+          className="w-[16px] h-[16px] max-sm:w-[12px] max-sm:h-[12px]"
           whileHover={{
             scale: 1.5,
             rotate: [12, -12],

@@ -4,6 +4,7 @@ export const TwitterSvg = () => {
     return (
       <a href="https://www.x.com" target="_blank">
         <motion.svg
+          className="w-[16px] h-[16px] max-sm:w-[12px] max-sm:h-[12px]"
           width="36"
           height="36"
           viewBox="0 0 36 36"

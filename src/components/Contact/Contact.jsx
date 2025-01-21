@@ -51,7 +51,7 @@ export const Contact = () => {
         transition={{ duration: 1, delay: 0.5, ease: "easeInOut" }}
         className="bg-[url('https://res.cloudinary.com/dmrr92p4s/image/upload/v1737276529/qitchen/contact/lbkv3wrziwe6wcjt2suv.png')]
       col-span-6 bg-cover h-[1032px] relative rounded-[20px] text-white bg-no-repeat
-      max-2xl:bg-top max-3xl:col-span-12 max-3xl:row-span-6 max-2xl:bg-top max-md:h-[600px] max-xl:row-span-3 max-md:row-span-2
+      max-2xl:bg-top max-3xl:col-span-12 max-3xl:row-span-1 max-2xl:bg-top max-md:h-[600px] max-xl:row-span-3 max-md:row-span-2
       "
       >
         <div
