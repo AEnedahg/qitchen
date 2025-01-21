@@ -43,7 +43,7 @@ export const Contact = () => {
   return (
     <div
       className="max-w-[100vw] w-[1920px] p-[24px] grid grid-cols-12 max-3xl:grid-rows-6 grid-rows-12 gap-x-[16px]
-    bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px]"
+    bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px] overflow-y-hidden"
     >
       <motion.section
         initial={{ opacity: 0, x: -50 }}
