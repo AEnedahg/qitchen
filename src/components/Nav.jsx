@@ -15,7 +15,7 @@ const containerVariants = {
       duration: 1,
       delay: 0.5,
       delayChilden: 0.5,
-      staggerChildren: 0.75,
+      staggerChildren: 0.25,
       when: "beforeChildren",
     },
   },
@@ -38,7 +38,7 @@ const childVariants = {
     x: 0,
     opacity: 1,
     transition: {
-      duration: 0.75,
+      duration: 0.5,
     },
   },
   exit: {

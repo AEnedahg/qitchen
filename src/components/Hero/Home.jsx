@@ -125,7 +125,8 @@ export const Home = ({ children }) => {
                   backgroundRepeat: "no-repeat",
                 }}
               >
-                <motion.div
+                <motion.a
+                  href={desti}
                   whileHover={{
                     scale: 1.2,
                     transition: {
@@ -152,14 +153,13 @@ export const Home = ({ children }) => {
                       fill="#0A0B0A"
                     />
                   </svg>
-                  <a
-                    href={desti}
+                  <p
                     className="
                     text-primary-300 text-[16px] font-serif
                   "
                   >
                     {link}
-                  </a>
+                  </p>
                   <ArrowSvg />
                   <svg
                     className="
@@ -176,7 +176,7 @@ export const Home = ({ children }) => {
                       fill="#0A0B0A"
                     />
                   </svg>
-                </motion.div>
+                </motion.a>
               </div>
             </motion.div>
           );
