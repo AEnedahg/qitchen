@@ -42,7 +42,7 @@ const childVariants = {
 export const Contact = () => {
   return (
     <div
-      className="max-w-full w-full p-[24px] grid grid-cols-12 grid-rows-12 gap-x-[16px]
+      className="max-w-[100vw] w-[1920px] p-[24px] grid grid-cols-12 max-3xl:grid-rows-6 grid-rows-12 gap-x-[16px]
     bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px]"
     >
       <motion.section
@@ -51,7 +51,7 @@ export const Contact = () => {
         transition={{ duration: 1, delay: 0.5, ease: "easeInOut" }}
         className="bg-[url('https://res.cloudinary.com/dmrr92p4s/image/upload/v1737276529/qitchen/contact/lbkv3wrziwe6wcjt2suv.png')]
       col-span-6 bg-cover h-[1032px] relative rounded-[20px] text-white bg-no-repeat
-      max-2xl:bg-top max-3xl:col-span-12 max-3xl:row-span-1 max-2xl:bg-top max-md:h-[600px] max-xl:row-span-3 max-md:row-span-2
+      max-2xl:bg-top max-3xl:col-span-12 max-3xl:row-span-2 max-2xl:bg-top max-md:h-[600px] max-xl:row-span-3 max-md:row-span-2
       "
       >
         <div
@@ -74,7 +74,7 @@ export const Contact = () => {
       </motion.section>
       <section
         className="col-span-6 grid grid-cols-12 grid-rows-12 *:border-2 *:border-solid *:border-primary-200
-      *:rounded-[16px] gap-[16px] max-3xl:col-span-12 max-3xl:row-span-6 max-xl:*:col-span-12
+      *:rounded-[16px] gap-[16px] max-3xl:col-span-12 max-3xl:row-span-4 max-xl:*:col-span-12
       max-xl:row-span-8 overflow-y-hidden
       "
       >
