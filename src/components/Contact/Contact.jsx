@@ -75,7 +75,7 @@ export const Contact = () => {
       <section
         className="col-span-6 grid grid-cols-12 grid-rows-12 *:border-2 *:border-solid *:border-primary-200
       *:rounded-[16px] gap-[16px] max-3xl:col-span-12 max-3xl:row-span-6 max-xl:*:col-span-12
-      max-xl:row-span-4 overflow-y-hidden
+      max-xl:row-span-8 overflow-y-hidden
       "
       >
         <motion.div

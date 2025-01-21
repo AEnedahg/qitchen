@@ -1,5 +1,5 @@
 import { Home } from './components/Hero/Home';
-import './index.css';
+import './output.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Menu } from "./components/Menu/Menu";
 import { About } from "./components/About/About";
