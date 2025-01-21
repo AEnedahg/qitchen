@@ -75,7 +75,7 @@ export const Contact = () => {
       <section
         className="col-span-6 grid grid-cols-12 grid-rows-12 *:border-2 *:border-solid *:border-primary-200
       *:rounded-[16px] gap-[16px] max-3xl:col-span-12 max-3xl:row-span-6 max-xl:*:col-span-12
-      max-xl:row-span-9
+      max-xl:row-span-4 overflow-y-hidden
       "
       >
         <motion.div
@@ -233,7 +233,7 @@ export const Contact = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 8, ease: "easeInOut" }}
-          className="col-span-12 row-span-1 max-xl:h-[100px] max-sm:!border-0 flex justify-center items-center gap-[16px] *:font-serifTwo
+          className="col-span-12 row-span-1 max-xl:h-[30px] max-sm:!border-0 flex justify-center items-center gap-[16px] *:font-serifTwo
         *:font-light *:text-[12px] *:text-primary-300"
         >
           <p>By Pawel Gola</p>

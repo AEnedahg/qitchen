@@ -15,6 +15,7 @@ export const maki = [
     text: "Tempura-fried shrimp, cucumber, and cream cheese embrace a center of fresh avocado, delivering a satisfying contrast of textures.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089126/qitchen/menu/l91duv9pijjzmkcbnsjf.png",
     price: "$5",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
   {
     id: 3,
@@ -22,6 +23,7 @@ export const maki = [
     text: "Shiitake mushrooms, avocado, and pickled daikon radish nestle within a roll of seasoned rice, coated with nutty sesame seeds.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089126/qitchen/menu/gji0dbnhmp69s04fpaju.png",
     price: "$5",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
   {
     id: 4,
@@ -29,6 +31,7 @@ export const maki = [
     text: "A vibrant assortment of julienned carrots, bell peppers, and cucumber, tightly encased in a nori-wrapped rice roll.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089126/qitchen/menu/x0fphil8bg0zu2gebwha.png",
     price: "$5",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
 ];
 
@@ -47,6 +50,7 @@ export const uramaki = [
     text: "A colorful blend of fresh tuna, salmon, yellowtail, and avocado, enveloping a core of cucumber and crab stick.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089131/qitchen/menu/nrtni28yklhwuxsoojy9.png",
     price: "$12",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
   {
     id: 3,
@@ -54,6 +58,7 @@ export const uramaki = [
     text: "Grilled eel and avocado nestled within the roll, draped with slices of ripe avocado resembling dragon scales.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089130/qitchen/menu/jq6uystgpt0lj3mdfhka.png",
     price: "$12",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
   {
     id: 4,
@@ -61,6 +66,7 @@ export const uramaki = [
     text: "Tempura shrimp, cucumber, and spicy mayo embraced by a roll of soy paper, crowned with slices of creamy mango.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089131/qitchen/menu/pozp8qmuf97lu1zkmovr.png",
     price: "$12",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
   {
     id: 5,
@@ -68,6 +74,7 @@ export const uramaki = [
     text: "Shiitake mushrooms, asparagus, and cucumber intermingle with crispy tempura bits, blanketed by a layer of sesame seeds.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089126/qitchen/menu/riqefc8oljgezbmcnapx.png",
     price: "$12",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
   {
     id: 6,
@@ -75,6 +82,7 @@ export const uramaki = [
     text: "A medley of fresh shrimp, crab stick, and avocado, laced with a gentle touch of zesty yuzu-infused tobiko.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089126/qitchen/menu/vmlpurloq2txhsiurrvq.png",
     price: "$12",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
   {
     id: 7,
@@ -82,6 +90,7 @@ export const uramaki = [
     text: "Delicate pink soy paper envelopes a blend of tuna, crab stick, and cucumber, embellished with edible flower petals.",
     img: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089127/qitchen/menu/kd6t8ei6peepcbqiwitq.png",
     price: "$12",
+    icon: "https://res.cloudinary.com/dmrr92p4s/image/upload/v1737118804/qitchen/menu/fpqpqrn59jprdc212di8.svg",
   },
 ];
 
