@@ -233,7 +233,7 @@ export const Contact = () => {
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 8, ease: "easeInOut" }}
-          className="col-span-12 row-span-1 max-xl:h-[20px] max-sm:!border-0 flex justify-center items-center gap-[16px] *:font-serifTwo
+          className="col-span-12 max-sm:!border-0 flex justify-center items-center gap-[16px] *:font-serifTwo
         *:font-light *:text-[12px] *:text-primary-300"
         >
           <p>By Pawel Gola</p>
