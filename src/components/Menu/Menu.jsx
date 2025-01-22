@@ -65,7 +65,7 @@ export const Menu = () => {
       </motion.section>
       <motion.section
         className="pt-[32px] px-[96px] h-auto col-span-6 max-2xl:col-span-12 max-4xl:px-[30px] max-[1000px]:px-[10px] max-2xl:row-start-2
-        max-2xl:row-end-13 overflow-y-hidden
+        max-2xl:row-end-9 overflow-y-hidden
         "
         variants={containerVariants}
         initial="hidden"
