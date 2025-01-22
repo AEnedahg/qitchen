@@ -7,7 +7,7 @@ import { Form } from './Form';
 export const BookATable = () => {
   return (
     <div
-      className="max-w-[100vw] w-[1920px] h-[1080px] max-2xl:h-[2000px] p-[24px] flex max-2xl:flex-col gap-x-[16px]
+      className="max-w-[100vw] w-[1920px] h-auto max-2xl:h-[2000px] p-[24px] flex max-2xl:flex-col gap-x-[16px]
     bg-neutral-900 z-[1] max-md:h-[1500px] max-sm:p-[10px] max-md:p-[15px]"
     >
       <motion.section
@@ -41,7 +41,7 @@ export const BookATable = () => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 1, ease: "easeInOut" }}
-        className="px-[96px] py-[80px] basis-1/2 max-[700px]:px-[30px] max-[585px]:px-[10px]"
+        className="px-[96px] py-[80px] basis-1/2 h-auto max-[700px]:px-[30px] max-[585px]:px-[10px]"
       >
         <div className="w-full max-h-[554px] mb-[337px] max-md:mb-[200px]">
           <div className="flex justify-center items-center gap-[16px] w-full font-serif text-[40px] max-[585px]:text-[30px]

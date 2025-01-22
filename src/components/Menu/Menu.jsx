@@ -32,7 +32,7 @@ export const Menu = () => {
   
   return (
     <div
-      className="max-w-[100vw] w-[1920px] p-[24px] grid grid-cols-12 grid-rows-12 gap-x-[16px]
+      className="max-w-[100vw] w-[1920px] h-auto p-[24px] grid grid-cols-12 grid-rows-12 gap-x-[16px]
     bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px]"
     >
       <motion.section
@@ -64,7 +64,7 @@ export const Menu = () => {
         </div>
       </motion.section>
       <motion.section
-        className="pt-[32px] px-[96px] col-span-6 max-2xl:col-span-12 max-4xl:px-[30px] max-[1000px]:px-[10px] max-2xl:row-start-2
+        className="pt-[32px] px-[96px] h-auto col-span-6 max-2xl:col-span-12 max-4xl:px-[30px] max-[1000px]:px-[10px] max-2xl:row-start-2
         max-2xl:row-end-13 overflow-y-hidden
         "
         variants={containerVariants}
