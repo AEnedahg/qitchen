@@ -38,17 +38,16 @@ export const About = () => {
     return (
       <div
         className="max-w-[100vw] w-[1920px] h-[1080px] p-[24px]
-        bg-neutral-900 z-[1] max-md:h-[1500px] max-sm:p-[10px] max-md:p-[15px]
+        bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px]
         "
       >
-        <section className="grid grid-cols-12 grid-rows-12 bg-neutral-900 gap-x-[16px]">
+        <section className="flex max-2xl:flex-col bg-neutral-900 gap-x-[16px]">
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: -50 }}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5, ease: "easeInOut" }}
             className="bg-[url('https://res.cloudinary.com/dmrr92p4s/image/upload/v1737150119/qitchen/about/t9ib3xbwgfrztony8etb.png')]
-         col-span-6 row-span-12 relative bg-no-repeat max-[1324px]:bg-top max-2xl:col-span-12 max-2xl:row-span-2 max-lg:h-[600px]
-         max-lg:row-span-1
+         basis-1/2 relative bg-no-repeat max-[1324px]:bg-top max-lg:h-[600px]
           "
           >
             <div
@@ -73,14 +72,13 @@ export const About = () => {
             initial="hidden"
             animate="visible"
             variants={containerVariants}
-            className="col-span-6 row-span-3 grid grid-cols-12 grid-rows-12 gap-[16px] *:border-primary-200 *:border-2 *:border-solid *:rounded-[16px]
-          max-2xl:col-span-12 max-2xl:row-span-7 max-lg:row-span-9
+            className="basis-1/2 grid grid-cols-12 grid-rows-12 gap-[16px] *:border-primary-200 *:border-2 *:border-solid *:rounded-[16px]
           "
           >
             <motion.div
               variants={childVariants}
               className="*:text-primary-300 p-[48px] flex flex-col gap-y-[118px] col-span-6
-                row-span-2 max-[1324px]:p-[20px] max-lg:gap-y-[50px] max-lg:col-span-12 max-lg:row-span-1
+                row-span-2 max-[1324px]:p-[20px] max-lg:gap-y-[50px] max-lg:col-span-12 max-lg:row-span-1 max-md:row-span-3
             "
             >
               <h1 className="text-[32px] font-serif max-lg:text-[24px]">
@@ -98,11 +96,11 @@ export const About = () => {
             <motion.div
               variants={childVariants}
               className="bg-[url('https://res.cloudinary.com/dmrr92p4s/image/upload/v1737150123/qitchen/about/bsbfkyyhzdincwhuuadf.png')]
-                col-span-6 bg-cover row-span-2 bg-no-repeat max-lg:col-span-12 max-lg:row-span-1
+                col-span-6 bg-cover row-span-2 bg-no-repeat max-lg:col-span-12 max-lg:row-span-4
             "
             ></motion.div>
             {awards.map(({ id, title, text, img }) => {
-              return (
+              return (  
                 <motion.div
                   variants={childVariants}
                   key={id}
@@ -121,12 +119,12 @@ export const About = () => {
             <motion.div
               variants={childVariants}
               className="bg-[url('https://res.cloudinary.com/dmrr92p4s/image/upload/v1737150119/qitchen/about/guertkiym0rifx7ocznb.png')]
-                bg-cover bg-no-repeat col-span-6 row-span-2 max-lg:col-span-12 max-lg:row-span-1 max-lg:h-[250px]"
+                bg-cover bg-no-repeat col-span-6 row-span-2 max-lg:col-span-12 max-lg:row-span-3 max-lg:h-[250px]"
             ></motion.div>
             <motion.div
               variants={childVariants}
               className="col-span-6 row-span-2 *:text-primary-300 p-[48px] flex flex-col items-start
-            gap-y-[107px] max-[1324px]:p-[20px] max-lg:gap-y-[50px] max-lg:col-span-12 max-lg:row-span-1"
+            gap-y-[107px] max-[1324px]:p-[20px] max-lg:gap-y-[50px] max-lg:col-span-12 max-lg:row-span-3"
             >
               <h1 className="text-primary-300 flex gap-x-[16px] font-serif text-[24px] justify-center max-lg:text-[18px]">
                 <IconLeft />

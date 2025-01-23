@@ -32,16 +32,16 @@ export const Menu = () => {
   
   return (
     <div
-      className="max-w-[100vw] w-[1920px] h-auto p-[24px] grid grid-cols-12 grid-rows-12 gap-x-[16px]
+      className="max-w-[100vw] w-[1920px] p-[24px] grid grid-cols-12 grid-rows-12 gap-x-[16px]
     bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px]"
     >
       <motion.section
         initial={{ opacity: 0, x: -50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 1, delay: 0.5, ease: "easeInOut" }}
-        className="col-span-6 bg-cover h-[1032px] max-2xl:h-[800px] relative rounded-[20px]
+        className="col-span-6 bg-cover h-[1032px] relative rounded-[20px]
       bg-[url('https://res.cloudinary.com/dmrr92p4s/image/upload/v1737089133/qitchen/menu/somjhkdrvaqb7llckiyk.png')]
-      text-white max-2xl:col-span-12 max-2xl:bg-top max-md:h-[600px]
+      text-white max-2xl:col-span-12 max-2xl:bg-top max-md:row-span-2
       
       "
       >
@@ -56,7 +56,7 @@ export const Menu = () => {
               max-w-[800px] max-h-[280px] font-serif text-[140px] text-primary-300
               leading-[100%] absolute bottom-[52px] left-[77px] max-2xl:text-[70px] max-xl:w-[300px]
               max-xl:bottom-[50px] max-lg:text-[70px] max-lg:left-[30px] max-[700px]:left-[30px] max-lg:left-[20px]
-              max-md:text-[45px] max-md:bottom-[80px]
+              max-md:text-[45px] max-md:bottom-[80px] 
             "
           >
             MENU
@@ -64,8 +64,8 @@ export const Menu = () => {
         </div>
       </motion.section>
       <motion.section
-        className="pt-[32px] px-[96px] h-auto col-span-6 max-2xl:col-span-12 max-4xl:px-[30px] max-[1000px]:px-[10px] max-2xl:row-start-2
-        max-2xl:row-end-9 overflow-y-hidden
+        className="pt-[32px] px-[96px] col-span-6 max-2xl:col-span-12 max-4xl:px-[30px] max-[1000px]:px-[10px] overflow-y-hidden
+        max-md:row-span-10
         "
         variants={containerVariants}
         initial="hidden"

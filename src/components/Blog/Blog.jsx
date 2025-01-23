@@ -43,8 +43,8 @@ const childVariants = {
 export const Blog = () => {
   return (
     <div
-      className="max-w-[100vw] w-[1920px] h-auto p-[24px] grid grid-cols-12 grid-rows-12 gap-x-[16px]
-    bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px]"
+      className="max-w-[100vw] w-[1920px] p-[24px] grid grid-cols-12 grid-rows-12 gap-x-[16px]
+    bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px] max-md:grid-cols-12 max-md:grid-rows-12"
     >
       <motion.section
       initial={{opacity: 0, x: -50}}
@@ -73,8 +73,8 @@ export const Blog = () => {
           </h1>
         </div>
       </motion.section>
-      <section className='col-span-6 h-auto max-3xl:col-span-12 max-3xl:row-span-10 max-md:h-[2600px]
-      py-[80px] px-[96px] max-lg:px-[20px] border-2 border-solid border-primary-200'>
+      <section className='col-span-6 max-3xl:col-span-12 max-xl:row-span-8 max-3xl:row-span-3
+      py-[80px] px-[96px] max-lg:px-[20px] border-2 border-solid border-primary-200 max-md:row-span-10'>
         <div className='flex flex-col gap-y-[80px]'>
           <motion.h1 
             initial={{opacity: 0, x: -50}}
