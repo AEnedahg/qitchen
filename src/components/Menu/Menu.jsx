@@ -32,7 +32,7 @@ export const Menu = () => {
   
   return (
     <div
-      className="max-w-[100vw] w-[1920px] p-[24px] grid grid-cols-12 grid-rows-12 gap-x-[16px]
+      className="max-w-[100vw] w-[1920px] p-[24px] grid max-md:grid-rows-12 max-md:grid-cols-12 gap-x-[16px]
     bg-neutral-900 z-[1] max-sm:p-[10px] max-md:p-[15px]"
     >
       <motion.section
@@ -56,7 +56,7 @@ export const Menu = () => {
               max-w-[800px] max-h-[280px] font-serif text-[140px] text-primary-300
               leading-[100%] absolute bottom-[52px] left-[77px] max-2xl:text-[70px] max-xl:w-[300px]
               max-xl:bottom-[50px] max-lg:text-[70px] max-lg:left-[30px] max-[700px]:left-[30px] max-lg:left-[20px]
-              max-md:text-[45px] max-md:bottom-[80px] 
+              max-md:text-[45px] max-md:bottom-[80px]
             "
           >
             MENU
